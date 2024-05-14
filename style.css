@@ -1,8 +1,14 @@
 /* Estilo de la Pagina Inicio */
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 .nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: red;
+    background-color: rgb(255, 0, 106);
 }
 footer{
     font-size: x-small;
@@ -27,4 +33,22 @@ aside{
     overflow: hidden;
     margin-left: 90%;
     padding: 1%;
+}
+body{
+    background-image: url(Imagenes/Pincelarte\ encabezado.jpg);
+    background-size: 180px;
+}
+.h1{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parrafo{
+    background-color: burlywood;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px black;
+    display: flex;
+    justify-content:space-between;
+    
 }
