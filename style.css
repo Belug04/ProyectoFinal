@@ -21,18 +21,29 @@ footer{
     justify-content: space-around;
     position: absolute;
     bottom: 0%;
+    left: 0%;
     width: 100%;
     height: 2.5rem;
     background-color: rgb(230, 55, 55);
+    
+}
+.content{
+    margin-right: 250px; /* Espacio para el aside */
+    padding: 20px;
 }
 aside{
-    float:right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
     background-color:beige;
     color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    overflow: hidden;
-    margin-left: 90%;
-    padding: 1%;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    
 }
 body{
     background-image: url(Imagenes/Pincelarte\ encabezado.jpg);
@@ -50,5 +61,73 @@ body{
     box-shadow: 4px 4px 4px black;
     display: flex;
     justify-content:space-between;
-    
+    min-height: 100px;
+    width: 1000px;
+}
+
+.formulario{
+   text-align: center;
+   background-color: black;
+   color: white;
+   align-items: center;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto
+   
+   
+}
+/* Estilo de la Pagina Horarios */
+
+table{
+    border: 5px white solid;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+.semana{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    border: 2px white solid;
+}
+.Dias, .Niños, .Adultos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+    border: 2px white solid;
+
+}
+.Martes, .ho1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(236, 61, 61);
+    border: 2px white solid;
+}
+.Miercoles, .ho2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(245, 245, 43);
+    border: 2px white solid;
+}
+.Jueves, .ho3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: skyblue;
+    border: 2px white solid;
+}
+.Consultar{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+    border: 1px white solid;
+}
+
+/*Estilo de la Pagina Productos */
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    width: 800%;
+    max-width: 1000px;
+    margin-bottom: 500px;
 }
