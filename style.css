@@ -61,9 +61,15 @@ body{
     box-shadow: 4px 4px 4px black;
     display: flex;
     justify-content:space-between;
-    min-height: 100px;
-    width: 1000px;
+   
+    margin-right: 18.5%;
 }
+.accordion{
+    margin-right: 18%;
+}
+
+
+/* Estilo de la Pgina Contacto*/
 
 .formulario{
    text-align: center;
@@ -76,6 +82,7 @@ body{
    
    
 }
+
 /* Estilo de la Pagina Horarios */
 
 table{
