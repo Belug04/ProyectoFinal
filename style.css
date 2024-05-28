@@ -2,57 +2,43 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
 }
 .nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(255, 0, 106);
 }
-footer{
-    font-size: x-small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100%;
-    max-height: max-content;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    height: 2.5rem;
-    background-color: rgb(230, 55, 55);
-    
+body{
+    background-image: url(Imagenes/Pincelarte\ encabezado.jpg);
+    background-size: 180px;
+   
 }
+.titulo{
+    color: white;
+    background-color: rgb(235, 82, 113);
+    margin-right: 18.5%;
+}
+
+
 .content{
     margin-right: 250px; /* Espacio para el aside */
     padding: 20px;
 }
 aside{
     position: fixed;
-    top: 0;
+    top: 40px;
     right: 0;
     width: 250px;
-    height: 100%;
+    height: 50%;
     background-color:beige;
     color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-left: 1px solid #ccc;
     padding: 20px;
+    margin-bottom: 40px;
     box-sizing: border-box;
     
 }
-body{
-    background-image: url(Imagenes/Pincelarte\ encabezado.jpg);
-    background-size: 180px;
-}
-.h1{
-    color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 .parrafo{
     background-color: burlywood;
     border: 2px solid black;
@@ -67,6 +53,17 @@ body{
 .accordion{
     margin-right: 18%;
 }
+.accordion-button{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline 2px solid violet;
+}
+.accordion-body{
+    background-color: rgb(162, 84, 235);
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
 /* Estilo de la Pgina Contacto*/
@@ -75,10 +72,11 @@ body{
    text-align: center;
    background-color: black;
    color: white;
-   align-items: center;
+   display: flex;
    justify-content: center;
-   margin-left: auto;
-   margin-right: auto
+   padding: 30px;
+   width: 415px;
+   margin-left: 500px;
    
    
 }
@@ -131,10 +129,110 @@ table{
 
 /*Estilo de la Pagina Productos */
 
-.contenedor{
-    display: flex;
-    justify-content: space-around;
-    width: 800%;
-    max-width: 1000px;
-    margin-bottom: 500px;
+
+.body{
+    background-color: rgb(228, 76, 106);
 }
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: auto;
+    background-image: url(Imagenes/Pincelarte\ encabezado.jpg);
+    background-size: 180px;
+}
+.card-body{
+    width: 200px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: rgb(30, 192, 138);
+    color: rgb(14, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+.card-body:hover{
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+.cardimg{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px #333;
+
+}
+.card-title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-info{
+    color: rgb(63, 59, 59);
+    font-size: small;
+}
+.btn{
+    background-color: blueviolet;
+}
+footer{
+    background-color: rgb(231, 76, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-small;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 14px;
+    max-height: max-content;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+
+}
+/* footer {
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+
+  } */
+
+.pie, .fondo{
+    color: white;
+    padding: 10px;
+    width: 100%; height: 100%;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+/* Estilo pagina Fotos */
+.tabla{
+    border: 10px white solid;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Fotos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    color: white;
+    border: 2px white solid;
+}
+.fila{
+    border: 2px white solid;
+}
+
