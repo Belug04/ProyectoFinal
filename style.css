@@ -47,7 +47,6 @@ aside{
     box-shadow: 4px 4px 4px black;
     display: flex;
     justify-content:space-between;
-   
     margin-right: 18.5%;
 }
 .accordion{
@@ -191,17 +190,27 @@ footer{
     padding: 10px;
     font-size: 14px;
     max-height: max-content;
-    position: relative;
+    position: fixed;
     bottom: 0%;
     width: 100%;
 
 }
-/* footer {
-   position: fixed;
-   bottom: 0%;
-   width: 100%;
+.footer {
+    background-color: rgb(231, 76, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-small;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 14px;
+    max-height: max-content;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
 
-  } */
+  } 
 
 .pie, .fondo{
     color: white;
