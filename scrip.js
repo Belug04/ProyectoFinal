@@ -4,7 +4,7 @@ function mayor(edad){
     if(edad >= 18){
         alert("Exitos en su compra.");
     }else{
-        alert("No puede comprar en esta pagina pero puede seguir navegando.")
+        alert("Puede comprar con la supervisión de un adulto. Puede seguir navegando.")
     }
 }
 
